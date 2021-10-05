@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background: #fece0c;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgb(35, 29, 59, 0.25);
+ }
+
+ .wrapper h2 {
+   text-align: center;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #332902;
+ }
+
+  .wrapper .row {
+   margin-bottom: 20px;
+ }
+
+ .wrapper .input_field {
+   margin-bottom: 10px;
+ }
+
+ .wrapper .input_field input[type="text"],
+ .wrapper textarea {
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.wrapper .input_field .important{
+  color: #e0e0e0;
+}
+
+.wrapper textarea {
+  height: 100px;
+  resize: none;
+}
+
+.wrapper .btn input[type="submit"] {
+  text-align: center;
+  border: 0;
+  padding: 10px;
+  margin-left: 25%;
+  width: 50%;
+  background: #fece0c;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.wrapper .btn:hover input[type="submit"]  {
+  background: #05d1c0;
+  transition: 0.1s transform ease-in-out;
+  transform: scale(1.05);
+  scale: 110%;
+  font-weight: bold;
+}
+
+.wrapper .btn:active input[type="submit"]  {
+  background: #009c7a;
+  transition: 0.1s transform ease-in-out;
+  transform: scale(0.95);
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.wrapper #error_message {
+  margin-bottom: 20px;
+  padding: 0px;
+  background: #fe650c;
+  color: #ffffff;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+  font-weight: bold;
+}
