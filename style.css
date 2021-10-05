@@ -58,7 +58,7 @@ body {
   resize: none;
 }
 
-.wrapper .btn input[type="submit"] {
+.wrapper button {
   text-align: center;
   border: 0;
   padding: 10px;
@@ -73,7 +73,7 @@ body {
   cursor: pointer;
 }
 
-.wrapper .btn:hover input[type="submit"]  {
+.wrapper button:hover {
   background: #05d1c0;
   transition: 0.1s transform ease-in-out;
   transform: scale(1.05);
@@ -81,7 +81,7 @@ body {
   font-weight: bold;
 }
 
-.wrapper .btn:active input[type="submit"]  {
+.wrapper button:active {
   background: #009c7a;
   transition: 0.1s transform ease-in-out;
   transform: scale(0.95);
